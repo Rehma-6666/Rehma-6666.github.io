@@ -9,4 +9,22 @@ body {
       }
     p
 
-
+    .next {
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 3%;
+        padding-right: 3%;
+        width: 100%;
+        text-align: end;
+    }
+    
+    .link {
+        color: rgb(255, 250, 230);
+        margin-bottom: 3%;
+        font-size: x-large;
+        margin-left: 90%;
+    }
+    
+    .link:hover {
+        color: rgb(30, 5, 41);
+    }
