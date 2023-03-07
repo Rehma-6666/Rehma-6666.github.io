@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+font-family: san-serif;
+}
+.test{
+width: 100%;
+height: 100vh;
+background-image:url(ballet-dance-performances.png);
+background-size:cover;
+background-positions:center;
+}
+.crown img{
+    width: 50px;
+    animation: crown 5s linear infinite;
+}
+.hand img{
+    width: 200px;
+    position: relative;
+ position: relative; top: -700px; 
+}
+.crown{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position:absolute;
+    bottom: 0;
+}
+
+
+@keyframes crown{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    40%{
+       
+        opacity: 1;
+
+     70%{
+            opacity: 1;
+        }
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+   
+  
+
+
+
+
+
