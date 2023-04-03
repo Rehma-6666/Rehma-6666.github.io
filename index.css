@@ -1,0 +1,68 @@
+body {
+    background-color:rgb(103, 12, 12)
+    }
+     
+    p {
+        border-style: double;
+        border-width: 35px;
+        border-color: rgb(255, 135, 199);
+      }
+    p
+    p {
+        border-style: solid;
+        border-width: 25px;
+        border-color: rgb(55, 148, 58);
+      }
+    p
+
+    .next {
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 3%;
+        padding-right: 3%;
+        width: 100%;
+        text-align: end;
+    }
+    .bush {
+        position: absolute;
+        bottom: 190px;
+        margin-bottom: 3%;
+        padding-right: 3%;
+        width: 100%;
+        text-align: end;
+    }
+    .berger {
+        position: absolute;
+        bottom: 160px;
+        margin-bottom: 3%;
+        padding-right: 3%;
+        width: 100%;
+        text-align: end;
+    }
+    .waysofseeing {
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 3%;
+        padding-right: 3%;
+        width: 100%;
+        text-align: end;
+    }
+    .Animation {
+        position: absolute;
+        bottom: 140px;
+        margin-bottom: 3%;
+        padding-right: 3%;
+        width: 100%;
+        text-align: end;
+    }
+    
+    .link {
+        color: rgb(255, 250, 230);
+        margin-bottom: 3%;
+        font-size: x-large;
+        margin-left: 90%;
+    }
+    
+    .link:hover {
+        color: rgb(30, 5, 41);
+    }
