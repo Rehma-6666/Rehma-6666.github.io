@@ -12,6 +12,14 @@
         position:absolute;
         bottom: 0;
     }
+    .kid{
+    .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+    }
     
     
     @keyframes crown{
