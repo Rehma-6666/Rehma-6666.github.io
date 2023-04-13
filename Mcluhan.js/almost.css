@@ -1,0 +1,41 @@
+
+.computer img{
+    width: 100px;
+    animation: crown 8s linear infinite;
+}
+
+.computer{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position:absolute;
+    bottom: 0;
+}
+.tech{
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+}
+
+
+@keyframes crown{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    40%{
+       
+        opacity: 1;
+
+     70%{
+            opacity: 10;
+        }
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }

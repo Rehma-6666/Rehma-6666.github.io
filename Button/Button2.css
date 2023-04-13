@@ -1,10 +1,10 @@
 
-    .bubble img{
+    .kidd img{
         width: 100px;
         animation: crown 8s linear infinite;
     }
  
-    .bubble{
+    .kidd{
         width: 100%;
         display: flex;
         align-items:center;
