@@ -1,0 +1,21 @@
+a{
+    color: rgb(5, 34, 255);
+    transition: all 0.4s linear;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    
+}
+a {
+    text-decoration: underline overline dotted rgb(46, 111, 143);
+      
+    font-size: 150px;
+  }
+  body {background-color: rgb(16, 11, 70);}
+
+ 
+  
+
+
+    
