@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+     padding: 0;
+    font-family: san-serif;
+     }
+    body{
+        
+            margin: auto;
+            width: 640px; 
+            padding: 50px;
+            font-family: 'Lexend Deca', sans-serif; 
+            color: #ff0202;    
+          
+       
+        background-color:rgb(0, 0, 0);
+    }
+        .crown img{
+            width: 150px;
+           animation: crown 8s linear infinite;
+           }
+          .crown{
+                  width: 100%;
+                  display: flex;
+                  align-items:relative;
+                  justify-content: space-around;
+                  position:absolute;
+                  bottom: 0;
+              }
+              .moon img{
+                  width: 500px;
+                  position: relative;
+               position: relative; bottom: -130px; 
+              }
+
+             @keyframes crown{
+                  0%{
+                      transform: translateY(0);
+                      opacity: 0;
+                  }
+                  40%{
+                     
+                      opacity: 1;
+              
+                   70%{
+                          opacity: 1;
+                      }
+                  }
+                  100%{
+                      transform: translateY(-80vh);
+                      opacity: 0;
+                  }
+                 
+          
+                 
+              
+          
+  
