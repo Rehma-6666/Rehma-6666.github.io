@@ -4,7 +4,7 @@ let boxes = Array.from(document.getElementsByClassName('box'))
 
 let winnerIndicator = getComputedStyle(document.body).getPropertyValue('--winning-blocks')
 
-const O_TEXT = "W"
+const O_TEXT = "A"
 const X_TEXT = "B"
 let currentPlayer = X_TEXT
 let spaces = Array(9).fill(null)
@@ -64,7 +64,7 @@ function restart() {
         box.style.backgroundColor=''
     })
 
-    playerText.innerHTML = 'Wizard vs Bunny'
+    playerText.innerHTML = 'Wizard vs Alien'
 
 
     currentPlayer = X_TEXT
